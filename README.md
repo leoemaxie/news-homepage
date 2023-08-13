@@ -55,4 +55,4 @@ This project is a stepping stone to eventually build a fullstack news website
 ## Author
 
 - Frontend Mentor - [@leoemaxie](https://www.frontendmentor.io/profile/leoemaxie)
-- Twitter - [@@leoemaxie](https://www.twitter.com/leoemaxie)
+- Twitter - [@leoemaxie](https://www.twitter.com/leoemaxie)
