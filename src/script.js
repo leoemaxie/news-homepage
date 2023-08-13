@@ -8,13 +8,10 @@ menu.addEventListener('click', function() {
 })
 
 function showMenu() {
-    menu.src = './assets/images/icon-menu-close.svg' ;
+    menu.src = './assets/images/icon-menu-close.svg';
     nav.style.display = 'flex';
     menu.style.position = 'fixed';
     document.body.style.overflow = 'hidden';
-   //document.body.style.backgroundColor = 'hsl(236, 13%, 42%)';
-    //document.body.style.filter = 'blur(400px)';
-
 }
 
 function hideMenu() {
@@ -27,12 +24,9 @@ function hideMenu() {
 }
 
 window.onclick = (event) => {
-  console.log(event.target)
-    if(nav.style.display == 'none') {
-      
-     //   if(menu.src = './assets/images/icon-menu-close.svg') 
-  //  isClicked = true;
-     
-    }
+     if (isClicked && event.target.id != 'menu') 
+     {
+        hideMenu();
+        isClicked = false;
+     }
 }
-//maxWidth < 375 ? nav.style.display = "none" : ""

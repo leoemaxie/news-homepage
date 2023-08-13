@@ -158,6 +158,10 @@ article.card {
     margin-top: 1em;
 }
 
+article.card a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
 .card-img {
     width: 100px;
     height: 115px;
